@@ -1,0 +1,15 @@
+C:\Users\Fagner Fernandes\source\repos\Dadostxt\Dadostxt\bin\Debug\net6.0\Dadostxt.exe
+C:\Users\Fagner Fernandes\source\repos\Dadostxt\Dadostxt\bin\Debug\net6.0\Dadostxt.deps.json
+C:\Users\Fagner Fernandes\source\repos\Dadostxt\Dadostxt\bin\Debug\net6.0\Dadostxt.runtimeconfig.json
+C:\Users\Fagner Fernandes\source\repos\Dadostxt\Dadostxt\bin\Debug\net6.0\Dadostxt.dll
+C:\Users\Fagner Fernandes\source\repos\Dadostxt\Dadostxt\bin\Debug\net6.0\Dadostxt.pdb
+C:\Users\Fagner Fernandes\source\repos\Dadostxt\Dadostxt\obj\Debug\net6.0\Dadostxt.csproj.AssemblyReference.cache
+C:\Users\Fagner Fernandes\source\repos\Dadostxt\Dadostxt\obj\Debug\net6.0\Dadostxt.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Fagner Fernandes\source\repos\Dadostxt\Dadostxt\obj\Debug\net6.0\Dadostxt.AssemblyInfoInputs.cache
+C:\Users\Fagner Fernandes\source\repos\Dadostxt\Dadostxt\obj\Debug\net6.0\Dadostxt.AssemblyInfo.cs
+C:\Users\Fagner Fernandes\source\repos\Dadostxt\Dadostxt\obj\Debug\net6.0\Dadostxt.csproj.CoreCompileInputs.cache
+C:\Users\Fagner Fernandes\source\repos\Dadostxt\Dadostxt\obj\Debug\net6.0\Dadostxt.dll
+C:\Users\Fagner Fernandes\source\repos\Dadostxt\Dadostxt\obj\Debug\net6.0\refint\Dadostxt.dll
+C:\Users\Fagner Fernandes\source\repos\Dadostxt\Dadostxt\obj\Debug\net6.0\Dadostxt.pdb
+C:\Users\Fagner Fernandes\source\repos\Dadostxt\Dadostxt\obj\Debug\net6.0\Dadostxt.genruntimeconfig.cache
+C:\Users\Fagner Fernandes\source\repos\Dadostxt\Dadostxt\obj\Debug\net6.0\ref\Dadostxt.dll
