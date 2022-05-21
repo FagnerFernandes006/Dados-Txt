@@ -49,7 +49,7 @@ namespace Dadostxt
                 }
                 else if (ch == 'n')
                 {
-                    Console.WriteLine("Aquivo permanece o messmo.");
+                    Console.WriteLine("Aquivo permanece o mesmo.");
                 }
             }
         }
