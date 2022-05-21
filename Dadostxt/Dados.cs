@@ -16,7 +16,9 @@ namespace Dadostxt
         public void CriaFile(string patch)
         {
             StreamWriter sw = new StreamWriter(patch);
-            sw.WriteLine(nome + ", " + email + ", " + rg);
+            sw.WriteLine("Nome: " + nome);
+            sw.WriteLine("Email: " + email);
+            sw.WriteLine("RG: " + rg);
             sw.Close();
         }
         public void SubstituiFile(string patch)
@@ -27,6 +29,14 @@ namespace Dadostxt
         public void CriaPasta(string patch)
         {
             Directory.CreateDirectory(@"C:\Temp\");
+        }
+        public void exibetxt(string patch)
+        {
+            string[] linhas = File.ReadAllLines(patch);
+            foreach (string linha in linhas)
+            {
+                Console.WriteLine(linha);
+            }
         }
     }
 }

@@ -44,7 +44,7 @@ namespace Dadostxt
                 if (ch == 's')
                 {
                     dados.SubstituiFile(path);
-                    Console.WriteLine("Aquivo substtuido com sucesso!");
+                    Console.WriteLine("Aquivo substituido com sucesso!");
                     Console.WriteLine("Seu Arquivo esta salvo em: " + path);
                 }
                 else if (ch == 'n')
@@ -52,6 +52,8 @@ namespace Dadostxt
                     Console.WriteLine("Aquivo permanece o mesmo.");
                 }
             }
+            Console.WriteLine("-----------------");
+            dados.exibetxt(path);
         }
     }
 }
