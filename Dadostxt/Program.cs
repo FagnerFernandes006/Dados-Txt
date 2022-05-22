@@ -17,41 +17,9 @@ namespace Dadostxt
             dados.email = Console.ReadLine();
             Console.Write("RG: ");
             dados.rg = Console.ReadLine();
-
-            if (!File.Exists(@"C:\Temp\"))
-            {
-                dados.CriaPasta(@"C:\Temp\");
-            }
             string path = @"C:\Temp\" + dados.arquivo + ".txt";
 
-            if (!File.Exists(path))
-            {
-                dados.CriaFile(path);
-                Console.WriteLine("Arquivo Criado com sucesso!");
-                Console.WriteLine("Seu Arquivo esta salvo em: "+ path);
-            }
-            else if (File.Exists(path))
-            {
-                Console.Write("Já existe um aquivo com esse nome, deseja substituir? s/n ");
-                char ch = char.Parse(Console.ReadLine());
-                while (ch != 's' && ch != 'n')
-                {
-                    Console.WriteLine("Caracter não identificado!");
-                    Console.WriteLine("Digite novamente");
-                    Console.Write("Já existe um aquivo com esse nome, deseja substituir? s/n ");
-                    ch = char.Parse(Console.ReadLine());
-                }
-                if (ch == 's')
-                {
-                    dados.SubstituiFile(path);
-                    Console.WriteLine("Aquivo substituido com sucesso!");
-                    Console.WriteLine("Seu Arquivo esta salvo em: " + path);
-                }
-                else if (ch == 'n')
-                {
-                    Console.WriteLine("Aquivo permanece o mesmo.");
-                }
-            }
+            dados.CriarArquivo(path);
             Console.WriteLine("-----------------");
             dados.exibetxt(path);
         }
