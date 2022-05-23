@@ -53,7 +53,7 @@ namespace Dadostxt
             }
             else if (File.Exists(path))
             {
-                Console.Write("Já existe um aquivo com esse nome, deseja substituir? s/n ");
+                Console.Write("Já existe um arquivo com esse nome, deseja substituir? s/n ");
                 char ch = char.Parse(Console.ReadLine());
                 while (ch != 's' && ch != 'n')
                 {
@@ -65,12 +65,12 @@ namespace Dadostxt
                 if (ch == 's')
                 {
                     SubstituiFile(path);
-                    Console.WriteLine("Aquivo substituido com sucesso!");
+                    Console.WriteLine("Arquivo substituido com sucesso!");
                     Console.WriteLine("Seu Arquivo esta salvo em: " + path);
                 }
                 else if (ch == 'n')
                 {
-                    Console.WriteLine("Aquivo permanece o mesmo.");
+                    Console.WriteLine("Arquivo permanece o mesmo.");
                 }
             }
         }

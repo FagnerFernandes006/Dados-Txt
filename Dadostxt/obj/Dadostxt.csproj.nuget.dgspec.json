@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Fagner Fernandes\\OneDrive\\Área de Trabalho\\Projeto\\Dadostxt\\Dadostxt.csproj": {}
+    "C:\\Users\\Fagner Fernandes\\source\\repos\\Dadostxt\\Dadostxt\\Dadostxt.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Fagner Fernandes\\OneDrive\\Área de Trabalho\\Projeto\\Dadostxt\\Dadostxt.csproj": {
+    "C:\\Users\\Fagner Fernandes\\source\\repos\\Dadostxt\\Dadostxt\\Dadostxt.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Fagner Fernandes\\OneDrive\\Área de Trabalho\\Projeto\\Dadostxt\\Dadostxt.csproj",
+        "projectUniqueName": "C:\\Users\\Fagner Fernandes\\source\\repos\\Dadostxt\\Dadostxt\\Dadostxt.csproj",
         "projectName": "Dadostxt",
-        "projectPath": "C:\\Users\\Fagner Fernandes\\OneDrive\\Área de Trabalho\\Projeto\\Dadostxt\\Dadostxt.csproj",
+        "projectPath": "C:\\Users\\Fagner Fernandes\\source\\repos\\Dadostxt\\Dadostxt\\Dadostxt.csproj",
         "packagesPath": "C:\\Users\\Fagner Fernandes\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Fagner Fernandes\\OneDrive\\Área de Trabalho\\Projeto\\Dadostxt\\obj\\",
+        "outputPath": "C:\\Users\\Fagner Fernandes\\source\\repos\\Dadostxt\\Dadostxt\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
