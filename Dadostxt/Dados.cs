@@ -59,7 +59,7 @@ namespace Dadostxt
                 {
                     Console.WriteLine("Caracter não identificado!");
                     Console.WriteLine("Digite novamente");
-                    Console.Write("Já existe um aquivo com esse nome, deseja substituir? s/n ");
+                    Console.Write("Já existe um arquivo com esse nome, deseja substituir? s/n ");
                     ch = char.Parse(Console.ReadLine());
                 }
                 if (ch == 's')
